@@ -57,11 +57,4 @@ public class Car implements Runnable {
         }
     }
 
-//    static class PrintInf implements Runnable{
-//        @Override
-//        public void run() {
-//            System.out.println("ВАЖНОЕ ОБЪЯВЛЕНИЕ >>> Гонка началась!!!");
-//        }
-//    }
-
 }

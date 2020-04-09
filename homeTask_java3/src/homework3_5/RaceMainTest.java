@@ -1,13 +1,11 @@
 package homework3_5;
 
 import java.util.concurrent.CyclicBarrier;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
 public class RaceMainTest {
     public static final int CARS_COUNT = 4;
     public static Thread[] threads = new Thread[CARS_COUNT];
-    static final ExecutorService executorService = Executors.newCachedThreadPool();
+
 
     public static void main(String[] args) {
         System.out.println("ВАЖНОЕ ОБЪЯВЛЕНИЕ >>> Подготовка!!!");
